@@ -5,7 +5,7 @@ install.packages ("neuralnet")
 library(neuralnet)
 
 #Read data
-mydata = read.csv('C:\\Users\\Kumail\\Desktop\\AI Labs\\Lab 3\\winedata2.csv',sep = ",")
+mydata = read.csv('C:\\Users\\SirBerus\\Documents\\GitHub\\AI-Labs\\Lab 3\\winedata2.csv',sep = ",")
 
 #Build a training set of the first half values and test set the remaining half values
 #set up a training set

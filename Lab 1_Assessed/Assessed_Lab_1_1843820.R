@@ -1,7 +1,7 @@
 #Source Dataset
-mydata = read.csv('C:\\Users\\Kumail\\Desktop\\AI Labs\\Lab 1_Assessed\\seeds_dataset.csv', sep=",")
-realdata = read.csv('C:\\Users\\Kumail\\Desktop\\AI Labs\\Lab 1_Assessed\\seeds_real.csv', sep=",")
-source("C:\\Users\\Kumail\\Desktop\\AI Labs\\Lab 1_Assessed\\WK_R.r")
+mydata = read.csv('C:\\Users\\SirBerus\\Documents\\GitHub\\AI-Labs\\Lab 1_Assessed\\seeds_dataset.csv', sep=",")
+realdata = read.csv('C:\\Users\\SirBerus\\Documents\\GitHub\\AI-Labs\\Lab 1_Assessed\\seeds_real.csv', sep=",")
+source("C:\\Users\\SirBerus\\Documents\\GitHub\\AI-Labs\\Lab 1_Assessed\\WK_R.r")
 
 #Plot data
 plot(mydata)
@@ -82,3 +82,4 @@ plot(mydata, col=realdata$Real)
 HierarchicalWK=c(wkaverage, wksingle, wkcomplete)
 #Plot Hierarchical WK values
 plot(HierarchicalWK)
+

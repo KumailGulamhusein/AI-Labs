@@ -1,5 +1,5 @@
 #Pull data into Rstudio
-seeddata = read.csv('C:\\Users\\Kumail\\Desktop\\AI Labs\\Lab 2\\seeds_dataset_class.csv', sep=",")
+seeddata = read.csv('C:\\Users\\SirBerus\\Documents\\GitHub\\AI-Labs\\Lab 2\\seeds_dataset_class.csv', sep=",")
 
 #Randomize data
 seeds_rand=seeddata[sample(209,209),]
