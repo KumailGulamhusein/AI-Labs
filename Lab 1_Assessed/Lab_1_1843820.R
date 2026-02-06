@@ -1,5 +1,5 @@
 #Source Data
-mydata = read.csv('C:\\Users\\SirBerus\\Documents\\GitHub\\AI-Labs\\Lab 1_Assessed\\spaeth_01.csv', sep=",")
+mydata = read.csv('[PATH to CSV]', sep=",")
 
 #Plot Data
 plot(mydata)
