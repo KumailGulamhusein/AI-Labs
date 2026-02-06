@@ -5,7 +5,7 @@ seeddata = read.csv('C:\\Users\\SirBerus\\Documents\\GitHub\\AI-Labs\\Lab 2\\see
 seeds_rand=seeddata[sample(209,209),]
 
 seeddata = na.omit(seeddata) # deletion of missing data
-#seeddata = scale(seeddata) # standardize variables
+seeddata = scale(seeddata) # standardize variables
 
 #Separate class and values into separate variables
 seedclass = seeds_rand[,1]
@@ -86,3 +86,4 @@ for (i in a){
 #Compare KNN accuracy and prune accuracy
 print(KaccuracyValues)
 print(pAccuracy)
+

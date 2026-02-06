@@ -19,18 +19,18 @@ NN = neuralnet(ORdat[,1]~., ORdat[,-1], hidden = c(3,3) , threshold = 0.001,step
 plot(NN)
 
 #Gives random weights and biases which we can check with
-#NN$weights
+NN$weights
 
 #Now let us use compute to see if the network responds to an input signal (1,1)
-#testin= rbind(c(1,1))
-#predict_testNN = compute(NN, testin)
+testin= rbind(c(1,1))
+predict_testNN = compute(NN, testin)
 
 #The activation of the output neuron is here
-#predict_testNN$net.result
+predict_testNN$net.result
 
 #To calculate the discrete class we threshold it at 0.5
-#predict_out = as.numeric(predict_testNN$net.result>0.5)
-#print(predict_out)
+predict_out = as.numeric(predict_testNN$net.result>0.5)
+print(predict_out)
 
 #Set up the input sequence
 testin=rbind(c(1,1),c(1,-1),c(-1,1), c(-1,-1))
