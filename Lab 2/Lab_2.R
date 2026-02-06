@@ -1,5 +1,5 @@
 #Pull data into Rstudio
-winedata = read.csv('C:\\Users\\Kumail\\Desktop\\AI Labs\\Lab 2\\winedata.csv', sep=",")
+winedata = read.csv('[PATH to CSV]', sep=",")
 
 #Separate class and values into separate variables
 wineclass = winedata[,1]
